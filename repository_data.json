@@ -9,7 +9,7 @@
                     "request_class": "AI4BharatBatchModelRequest"
                 }
             },
-            "asr": {
+          "asr": {
             "mms": {
              "__is_enabled": true,
                 "batch": {

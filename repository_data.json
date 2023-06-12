@@ -11,12 +11,13 @@
             },
           "asr": {
             "mms": {
-             "__is_enabled": true,
-                "batch": {
+                 "remote": {
+                    "__is_async": true,
                     "__is_base": true,
-                    "model_class": "AI4BharatBatchModel",
-                    "request_class": "AI4BharatBatchModelRequest"
+                    "model_class": "MMSBatchModel",
+                    "request_class": "MMSModelRequest"                
                 }
+            
             },
  
             "bhashini": {

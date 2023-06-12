@@ -47,5 +47,4 @@ def load_data(wavpath, of='raw', **extra):
             file.writeframes(base64.b64decode(wavpath))
         return '../downloaded/' + lang + '/' + name
     else:
-        # Handle other cases or raise an exception
-        pass
+        raise "Not implemented"

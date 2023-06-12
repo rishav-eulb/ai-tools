@@ -9,6 +9,16 @@
                     "request_class": "AI4BharatBatchModelRequest"
                 }
             },
+            "asr": {
+            "mms": {
+             "__is_enabled": true,
+                "batch": {
+                    "__is_base": true,
+                    "model_class": "AI4BharatBatchModel",
+                    "request_class": "AI4BharatBatchModelRequest"
+                }
+            },
+ 
             "bhashini": {
                 "remote": {
                     "__is_async": true,

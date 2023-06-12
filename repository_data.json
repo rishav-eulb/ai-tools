@@ -81,7 +81,7 @@
                 }
             },
             "mms": {
-                 "url": {
+                 "transcription": {
                     "__is_async": true,
                     "__is_base": true,
                     "model_class": "MMSBatchModel",

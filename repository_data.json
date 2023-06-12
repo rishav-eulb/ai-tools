@@ -9,16 +9,7 @@
                     "request_class": "AI4BharatBatchModelRequest"
                 }
             },
-          "asr": {
-            "mms": {
-                 "remote": {
-                    "__is_async": true,
-                    "__is_base": true,
-                    "model_class": "MMSBatchModel",
-                    "request_class": "MMSModelRequest"                
-                }
-            
-            },
+         
  
             "bhashini": {
                 "remote": {
@@ -89,6 +80,15 @@
                     "model_class": null
                 }
             },
+            "mms": {
+                 "url": {
+                    "__is_async": true,
+                    "__is_base": true,
+                    "model_class": "MMSBatchModel",
+                    "request_class": "MMSModelRequest"                
+                }
+            },
+            
             "google": {
                 "remote": {
                     "__is_base": true,
